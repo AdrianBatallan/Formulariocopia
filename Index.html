@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="|">
+</head>
+<body>
+    <header>
+        <h1>
+            Formularios
+        </h1>
+    </header>
+    <section>
+        <form action="https://formspree.io/f/xzbqapjd" method="post" target="_blank">
+            <label>
+                Nombre
+                <input name="nombre" type="text"/>
+            </label>
+            <label>
+                Comentarios
+                <textarea name="comentarios" id="" cols="50" rows="5">
+                </textarea>
+            </label>
+            <input name="submit" type="submit"/>
+            <input type="reset" name="reset"/>
+            <label>
+                Seleccionar
+                <select>
+                    <option value="">
+                        Uno
+                    </option>
+                    <option>
+                        Dos
+                    </option>
+                    <option>
+                        Tres
+                    </option>
+                    <option value="">
+                        Cuatro
+                    </option>
+                </select>
+            </label>
+            <fieldset>
+                <legend>
+                    Datos Personales
+                </legend>
+                <Label>
+                    Nombre
+                    <input type="text" name="nombre" required=""/>
+                </Label>
+                <label>
+                    Apellido
+                    <input name"apellido" type="text" required=""/>
+                </label>
+                <br/>
+                <Label>
+                    Correo Electronico
+                    <Input name="email" placeholder="ejemplo@ejemplo.com.ar" type="email" required=""/>
+                    </Input>
+                </Label>
+                <Label>
+                    Contraseña:
+                    <Input name="password" type="password"/>
+                </Label>
+                <br/>
+                <Label>
+                    Genero:
+                </Label>
+                <Label>
+                    Femenino
+                    <input type="radio" name="genero"/>
+
+                </Label>
+                
+                <Label>
+                    Masculino
+                    <input type="radio" name="genero">
+                </Label>
+                <Label>
+                    Otro
+                    <input type="radio" name="genero"/>
+                </Label>
+                <br/>
+                <Label>
+                    Edad
+                    <input type="number" name="cantidad"/>
+                </Label>
+                <br/>
+                <Label>
+                    Fecha de nacimiento
+                    <input type="date" name="Fecha"/>
+                </Label>
+                <br>
+                <Label>
+                    Semana
+                    <input type="week" name="Semana"/>
+                </Label>
+                <br>
+                <Label>
+                    Link:
+                    <input type="url" name="link"/>
+                </Label>
+                <br>
+                <br>
+                <input type="submit" name="submit" value="Enviar Formulario"/>
+                <input type="reset" name="reset"/>
+                
+            </fieldset>
+
+        </form>
+    </section>
+    
+</body>
+</html>
